@@ -14,6 +14,7 @@ export default function Registrate() {
       body: JSON.stringify({ email, password }),
       headers: { "Content-Type": "application/json" },
     });
+    
   }
 
   return (
